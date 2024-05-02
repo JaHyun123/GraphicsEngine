@@ -1,10 +1,4 @@
-﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\G\GraphicsEngine\Build\x64\Release\Ass01.cso
-FXC : warning X4717: Effects deprecated for D3DCompiler_47
-  
-  compilation object save succeeded; see C:\G\GraphicsEngine\Build\x64\Release\Lab03.cso
-  compilation object save succeeded; see C:\G\GraphicsEngine\Build\x64\Release\PS.cso
+﻿  compilation object save succeeded; see C:\G\GraphicsEngine\Build\x64\Release\PS.cso
 FXC : warning X4717: Effects deprecated for D3DCompiler_47
   
   compilation object save succeeded; see C:\G\GraphicsEngine\Build\x64\Release\shader.cso
@@ -1113,10 +1107,10 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(22,
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(22,142): warning C4668: '_M_CEE'은(는) 전처리기 매크로로 정의되어 있지 않으므로 '#if/#elif'에 해당하는 '0'으로 바뀝니다.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(281,100): warning C4668: '__arm__'은(는) 전처리기 매크로로 정의되어 있지 않으므로 '#if/#elif'에 해당하는 '0'으로 바뀝니다.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(281,111): warning C4668: '__aarch64__'은(는) 전처리기 매크로로 정의되어 있지 않으므로 '#if/#elif'에 해당하는 '0'으로 바뀝니다.
-C:\G\GraphicsEngine\Source\Library\Game\Game.cpp(163,36): warning C4365: '초기화 중': 'LONG'에서 'UINT'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\G\GraphicsEngine\Source\Library\Game\Game.cpp(164,37): warning C4365: '초기화 중': 'LONG'에서 'UINT'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\G\GraphicsEngine\Source\Library\Game\Game.cpp(476,9): warning C5219: 'UINT'에서 'FLOAT'(으)로 암시적 변환이 수행되면 데이터가 손실될 수 있습니다.
-C:\G\GraphicsEngine\Source\Library\Game\Game.cpp(526,22): warning C5219: 'ULONGLONG'에서 'float'(으)로 암시적 변환이 수행되면 데이터가 손실될 수 있습니다.
+C:\G\GraphicsEngine\Source\Library\Game\Game.cpp(160,36): warning C4365: '초기화 중': 'LONG'에서 'UINT'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\G\GraphicsEngine\Source\Library\Game\Game.cpp(161,37): warning C4365: '초기화 중': 'LONG'에서 'UINT'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\G\GraphicsEngine\Source\Library\Game\Game.cpp(531,62): warning C5219: 'UINT'에서 'FLOAT'(으)로 암시적 변환이 수행되면 데이터가 손실될 수 있습니다.
+C:\G\GraphicsEngine\Source\Library\Game\Game.cpp(587,22): warning C5219: 'ULONGLONG'에서 'float'(으)로 암시적 변환이 수행되면 데이터가 손실될 수 있습니다.
   Library.vcxproj -> C:\G\GraphicsEngine\Build\x64\Release\Library.lib
   하위 디렉터리 또는 파일 C:\G\GraphicsEngine\Build\..\Library\x64\Release이(가) 이미 있습니다.
   C:\G\GraphicsEngine\Build\x64\Release\Ass01.cso

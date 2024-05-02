@@ -1,30 +1,46 @@
-cbuffer ConstantBuffer : register(b0)
-{
-	matrix World;
-	matrix View;
-	matrix Projection;
-}
+Texture2D txDiffuse : register(t0);
+SamplerState samLinear : register(s0);
 
-struct VS_OUTPUT
+cbuffer cbView : register(b0)
 {
-	float4 Pos : SV_POSITION;
-	float4 Color : COLOR0;
+	matrix View;
 };
 
-VS_OUTPUT VS(float4 Pos:POSITION, float4 Color : COLOR)
+cbuffer cbProjection : register(b1)
 {
-	VS_OUTPUT output = (VS_OUTPUT)0;
-	output.Pos = mul(Pos, World);
-	output.Pos = mul(output.Pos, View);
-	output.Pos = mul(output.Pos, Projection);
-	output.Color = Color;
+	matrix Projection;
+};
+
+cbuffer cbWorld : register(b2)
+{
+	matrix World;
+};
+struct VS_INPUT
+{
+	float4 Position : POSITION;
+	float2 TexCoord : TEXCOORD0;
+};
+
+struct PS_INPUT
+{
+	float4 Position : SV_POSITION;
+	float2 TexCoord : TEXCOORD0;
+};
+
+PS_INPUT VS(VS_INPUT input)
+{
+	PS_INPUT output = (PS_INPUT)0;
+	output.Position = mul(input.Position, World);
+	output.Position = mul(output.Position, View);
+	output.Position = mul(output.Position, Projection);
+	output.TexCoord = input.TexCoord;
 
 	return output;
 }
 
-float4 PS(VS_OUTPUT input) : SV_Target
+float4 PS(PS_INPUT input) : SV_Target
 {
-	return input.Color;
+	return txDiffuse.Sample(samLinear, input.TexCoord);
 }
 
 /*
