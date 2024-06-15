@@ -550,93 +550,129 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(22,
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(22,142): warning C4668: '_M_CEE'은(는) 전처리기 매크로로 정의되어 있지 않으므로 '#if/#elif'에 해당하는 '0'으로 바뀝니다.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(281,100): warning C4668: '__arm__'은(는) 전처리기 매크로로 정의되어 있지 않으므로 '#if/#elif'에 해당하는 '0'으로 바뀝니다.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\DirectXMath.h(281,111): warning C4668: '__aarch64__'은(는) 전처리기 매크로로 정의되어 있지 않으므로 '#if/#elif'에 해당하는 '0'으로 바뀝니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xmemory(154,5): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xmemory(164,5): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\atomic(284,9): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\atomic(299,9): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\atomic(315,9): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\atomic(375,9): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(313,36): warning C4365: '초기화 중': 'LONG'에서 'UINT'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(314,37): warning C4365: '초기화 중': 'LONG'에서 'UINT'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(633,62): warning C5219: 'UINT'에서 'FLOAT'(으)로 암시적 변환이 수행되면 데이터가 손실될 수 있습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(696,37): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(701,36): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(705,37): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(709,36): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(713,34): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(717,36): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(721,30): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(724,54): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(725,55): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(735,19): warning C4100: 'deltaTime': 참조되지 않은 정식 매개 변수입니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(300): warning C4702: 접근할 수 없는 코드입니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(688): warning C4715: 'InitDevice': 모든 제어 경로에서 값을 반환하지는 않습니다.
-C:\2024_GGP\Source\Library\Game\Game.cpp(838): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(831) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(838) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(664): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(663) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(664) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(654): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(653) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(654) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(623): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(622) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(623) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(606): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(605) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(606) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(564): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(563) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(564) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(527): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(526) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(527) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(519): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(511) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(519) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(502): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(501) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(502) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(479): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(476) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(479) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(470): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(462) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(470) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(441): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(440) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(441) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(436): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(435) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(436) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(430): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(429) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(430) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(377): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(376) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(377) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(357): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(356) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(357) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(349): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(339) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'driverTypeIndex' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(349) : 참고: 이 줄에서 호출 피드
-C:\2024_GGP\Source\Library\Game\Game.cpp(342): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
-  C:\2024_GGP\Source\Library\Game\Game.cpp(339) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'driverTypeIndex' 범위
-  C:\2024_GGP\Source\Library\Game\Game.cpp(342) : 참고: 이 줄에서 호출 피드
-  Library.vcxproj -> C:\2024_GGP\Build\x64\Debug\Libraryd.lib
-  하위 디렉터리 또는 파일 C:\2024_GGP\Build\..\Library\x64\Debug이(가) 이미 있습니다.
-  C:\2024_GGP\Build\x64\Debug\Ass01.cso
-  C:\2024_GGP\Build\x64\Debug\Game.exe
-  C:\2024_GGP\Build\x64\Debug\Game.pdb
-  C:\2024_GGP\Build\x64\Debug\Lab02.cso
-  C:\2024_GGP\Build\x64\Debug\Libraryd.idb
-  C:\2024_GGP\Build\x64\Debug\Libraryd.lib
-  C:\2024_GGP\Build\x64\Debug\Libraryd.pdb
-  C:\2024_GGP\Build\x64\Debug\PixelShader.cso
-  C:\2024_GGP\Build\x64\Debug\PS.cso
-  C:\2024_GGP\Build\x64\Debug\shader.cso
-  C:\2024_GGP\Build\x64\Debug\VertexShader.cso
-  C:\2024_GGP\Build\x64\Debug\VS.cso
-         12개 파일이 복사되었습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(154,5): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(164,5): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(284,9): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(299,9): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(315,9): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\atomic(375,9): warning C4365: '인수': 'long'에서 'unsigned int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\defs.h(168,13): warning C4619: #pragma warning: 경고 번호 '4351'이(가) 없습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\types.h(308,1): warning C4365: '초기화 중': 'ai_uint32'에서 'ai_int32'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\types.h(312,1): warning C4365: '=': 'ai_int32'에서 'ai_uint32'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\types.h(313,1): warning C4365: '인수': 'ai_int32'에서 'size_t'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\texture.h(178,29): warning C4820: 'aiTexture': '7'바이트 채움 문자가 데이터 멤버 'aiTexture::achFormatHint' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\texture.h(215,1): warning C4820: 'aiTexture': '4'바이트 채움 문자가 데이터 멤버 'aiTexture::mFilename' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(55,9): warning C4619: #pragma warning: 경고 번호 '4351'이(가) 없습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(144,27): warning C4820: 'aiFace': '4'바이트 채움 문자가 데이터 멤버 'aiFace::mNumIndices' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(483,35): warning C4820: 'aiAnimMesh': '4'바이트 채움 문자가 데이터 멤버 'aiAnimMesh::mName' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(667,35): warning C4820: 'aiMesh': '4'바이트 채움 문자가 데이터 멤버 'aiMesh::mNumFaces' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(769,29): warning C4820: 'aiMesh': '4'바이트 채움 문자가 데이터 멤버 'aiMesh::mNumBones' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(810,38): warning C4820: 'aiMesh': '4'바이트 채움 문자가 데이터 멤버 'aiMesh::mNumAnimMeshes' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(826,44): warning C4820: 'aiMesh': '4'바이트 채움 문자가 데이터 멤버 'aiMesh::mAABB' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(1053,31): warning C4820: 'aiSkeletonBone': '4'바이트 채움 문자가 데이터 멤버 'aiSkeletonBone::mParent' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(1064,29): warning C4820: 'aiSkeletonBone': '4'바이트 채움 문자가 데이터 멤버 'aiSkeletonBone::mNumnWeights' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\mesh.h(1113,1): warning C4365: '초기화 중': 'unsigned int'에서 'int'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\material.h(664,16): warning C4820: 'aiMaterialProperty': '4'바이트 채움 문자가 데이터 멤버 'aiMaterialProperty::mType' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\material.inl(176,1): warning C4061: 열거형 'aiPropertyTypeInfo'의 switch에 있는 'aiPTI_String' 열거자는 case 레이블에 의해 명시적으로 처리되지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\material.h(566): message : 'aiPropertyTypeInfo' 선언을 참조하십시오.
+C:\GraphicsEngine\External\Assimp\Include\assimp\material.inl(176,1): warning C4061: 열거형 'aiPropertyTypeInfo'의 switch에 있는 '_aiPTI_Force32Bit' 열거자는 case 레이블에 의해 명시적으로 처리되지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\material.h(566): message : 'aiPropertyTypeInfo' 선언을 참조하십시오.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(107,1): warning C4820: 'aiVectorKey': '4'바이트 채움 문자가 데이터 멤버 'aiVectorKey::mValue' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(194,1): warning C4820: 'aiMeshKey': '4'바이트 채움 문자가 데이터 멤버 'aiMeshKey::mValue' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(226,1): warning C4820: 'aiMeshMorphKey': '4'바이트 채움 문자가 데이터 멤버 'aiMeshMorphKey::mNumValuesAndWeights' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(295,38): warning C4820: 'aiNodeAnim': '4'바이트 채움 문자가 데이터 멤버 'aiNodeAnim::mNumRotationKeys' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(305,39): warning C4820: 'aiNodeAnim': '4'바이트 채움 문자가 데이터 멤버 'aiNodeAnim::mNumScalingKeys' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(412,21): warning C4820: 'aiAnimation': '4'바이트 채움 문자가 데이터 멤버 'aiAnimation::mName' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(423,36): warning C4820: 'aiAnimation': '4'바이트 채움 문자가 데이터 멤버 'aiAnimation::mNumChannels' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(431,40): warning C4820: 'aiAnimation': '4'바이트 채움 문자가 데이터 멤버 'aiAnimation::mNumMeshChannels' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\anim.h(439,50): warning C4820: 'aiAnimation': '4'바이트 채움 문자가 데이터 멤버 'aiAnimation::mNumMorphMeshChannels' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\metadata.h(93,16): warning C4820: 'aiMetadataEntry': '4'바이트 채움 문자가 데이터 멤버 'aiMetadataEntry::mType' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\metadata.h(161,29): warning C4820: 'aiMetadata': '4'바이트 채움 문자가 데이터 멤버 'aiMetadata::mNumProperties' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\metadata.h(243,1): warning C4061: 열거형 'aiMetadataType'의 switch에 있는 'AI_META_MAX' 열거자는 case 레이블에 의해 명시적으로 처리되지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\metadata.h(66): message : 'aiMetadataType' 선언을 참조하십시오.
+C:\GraphicsEngine\External\Assimp\Include\assimp\metadata.h(301,1): warning C4061: 열거형 'aiMetadataType'의 switch에 있는 'AI_META_MAX' 열거자는 case 레이블에 의해 명시적으로 처리되지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\metadata.h(66): message : 'aiMetadataType' 선언을 참조하십시오.
+C:\GraphicsEngine\External\Assimp\Include\assimp\metadata.h(554,1): warning C4061: 열거형 'aiMetadataType'의 switch에 있는 'AI_META_MAX' 열거자는 case 레이블에 의해 명시적으로 처리되지 않습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\metadata.h(66): message : 'aiMetadataType' 선언을 참조하십시오.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(111,29): warning C4820: 'aiNode': '4'바이트 채움 문자가 데이터 멤버 'aiNode::mTransformation' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(117,32): warning C4820: 'aiNode': '4'바이트 채움 문자가 데이터 멤버 'aiNode::mNumChildren' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(125,26): warning C4820: 'aiNode': '4'바이트 채움 문자가 데이터 멤버 'aiNode::mNumMeshes' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(261,31): warning C4820: 'aiScene': '4'바이트 채움 문자가 데이터 멤버 'aiScene::mFlags' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(273,30): warning C4820: 'aiScene': '4'바이트 채움 문자가 데이터 멤버 'aiScene::mNumMeshes' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(285,37): warning C4820: 'aiScene': '4'바이트 채움 문자가 데이터 멤버 'aiScene::mNumMaterials' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(295,39): warning C4820: 'aiScene': '4'바이트 채움 문자가 데이터 멤버 'aiScene::mNumAnimations' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(306,35): warning C4820: 'aiScene': '4'바이트 채움 문자가 데이터 멤버 'aiScene::mNumTextures' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(318,31): warning C4820: 'aiScene': '4'바이트 채움 문자가 데이터 멤버 'aiScene::mNumLights' 뒤에 추가되었습니다.
+C:\GraphicsEngine\External\Assimp\Include\assimp\scene.h(332,33): warning C4820: 'aiScene': '4'바이트 채움 문자가 데이터 멤버 'aiScene::mNumCameras' 뒤에 추가되었습니다.
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(162,36): warning C4365: '초기화 중': 'LONG'에서 'UINT'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(163,37): warning C4365: '초기화 중': 'LONG'에서 'UINT'(으)로의 변환입니다. signed 또는 unsigned가 일치하지 않습니다.
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(533,62): warning C5219: 'UINT'에서 'FLOAT'(으)로 암시적 변환이 수행되면 데이터가 손실될 수 있습니다.
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(589,22): warning C5219: 'ULONGLONG'에서 'float'(으)로 암시적 변환이 수행되면 데이터가 손실될 수 있습니다.
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(150): warning C4702: 접근할 수 없는 코드입니다.
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(671): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(664) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(671) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(568): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(567) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(568) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(558): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(557) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(558) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(518): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(517) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(518) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(504): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(503) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(504) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(500): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(499) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(500) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(495): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(494) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(495) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(490): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(489) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(490) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(474): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(473) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(474) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(426): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(425) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(426) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(376): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(375) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(376) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(368): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(360) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(368) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(351): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(350) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(351) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(328): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(325) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(328) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(319): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(311) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(319) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(290): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(289) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(290) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(285): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(284) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(285) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(279): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(278) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(279) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(226): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(225) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(226) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(206): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(205) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'hr' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(206) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(198): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(188) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'driverTypeIndex' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(198) : 참고: 이 줄에서 호출 피드
+C:\GraphicsEngine\Source\Library\Game\Game.cpp(191): warning C5045: 컴파일러는 /Qspectre 스위치가 지정된 경우 메모리 로드를 위해 스펙터 완화를 삽입합니다.
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(188) : 참고: 이 줄에서 비교에 의해 검사된 인덱스 'driverTypeIndex' 범위
+  C:\GraphicsEngine\Source\Library\Game\Game.cpp(191) : 참고: 이 줄에서 호출 피드
+LINK : fatal error LNK1181: 'assimp-vc143-mtd.lib' 입력 파일을 열 수 없습니다.
